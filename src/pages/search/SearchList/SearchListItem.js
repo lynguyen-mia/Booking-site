@@ -1,16 +1,14 @@
 import React from "react";
 import "./SearchListItem.css";
+import { Link } from "react-router-dom";
 
 export default function SearchListItem(props) {
-  function onClickHotelHandler() {
-    window.location.assign("./detail");
-  }
   return (
     // prettier-ignore
     <div className="search-item-container">
       <img src={props.image_url} alt={props.name} />
       <div className="search-item-details">
-        <a onClick={onClickHotelHandler}><h2>{props.name}</h2></a>
+        <Link to="/detail"><a><h2>{props.name}</h2></a></Link>
         <p>{props.distance} from center</p>
         <span className="search-item-tag">{props.tag}</span>
         <p><strong>{props.description}</strong></p>

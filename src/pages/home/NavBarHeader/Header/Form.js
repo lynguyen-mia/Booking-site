@@ -5,10 +5,6 @@ import GuestInput from "./GuestInput";
 import { Link } from "react-router-dom";
 
 function Form() {
-  // function onClickSearchHandler() {
-  //   window.location.assign(`${process.env.PUBLIC_URL}/search`);
-  // }
-
   return (
     <div className="form-input__control">
       <div className="input-icon">

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./HotelList.css";
+import { Link } from "react-router-dom";
 
 const dummy_hotels = [
   {
@@ -47,9 +48,9 @@ function HotelList() {
         {hotelList.map((hotel) => (
           <div href="" key={hotel.name} className="hotel-img">
             <div className="img-text">
-              <a href="#" onClick={() => window.location.assign("./detail")}>
-                {hotel.name}
-              </a>
+              <Link to="/detail">
+                <a href="#">{hotel.name}</a>
+              </Link>
               <p>{hotel.city}</p>
               <p>
                 <strong>{"Starting from $" + hotel.price}</strong>
