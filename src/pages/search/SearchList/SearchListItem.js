@@ -8,7 +8,7 @@ export default function SearchListItem(props) {
     <div className="search-item-container">
       <img src={props.image_url} alt={props.name} />
       <div className="search-item-details">
-        <Link to="/detail" style={{textDecoration: 'none'}}><h2>{props.name}</h2></Link>
+        <Link to="/detail"><h2>{props.name}</h2></Link>
         <p>{props.distance} from center</p>
         <span className="search-item-tag">{props.tag}</span>
         <p><strong>{props.description}</strong></p>
