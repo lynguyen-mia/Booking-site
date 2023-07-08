@@ -5,7 +5,7 @@ import GuestInput from "./GuestInput";
 
 function Form() {
   function onClickSearchHandler() {
-    window.location.assign("/search");
+    window.location.assign("./search");
   }
 
   return (

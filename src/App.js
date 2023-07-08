@@ -8,9 +8,17 @@ function App() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/search" element={<Search />} />
-        <Route path="/detail" element={<Detail />} />
+        <Route path="/" element={<Home />} basename={process.env.PUBLIC_URL} />
+        <Route
+          path="/search"
+          element={<Search />}
+          basename={process.env.PUBLIC_URL}
+        />
+        <Route
+          path="/detail"
+          element={<Detail />}
+          basename={process.env.PUBLIC_URL}
+        />
       </Routes>
     </BrowserRouter>
   );
