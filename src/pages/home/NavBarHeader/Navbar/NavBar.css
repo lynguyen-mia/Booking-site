@@ -55,7 +55,7 @@
 @media (max-width: 768px) {
   .navbar-menu {
     gap: 0;
-    margin-top: 45px;
+    margin-top: 25px;
     justify-content: center;
   }
 }
@@ -66,6 +66,6 @@
   }
 
   .navbar-container {
-    padding-bottom: 65px;
+    padding-bottom: 70px;
   }
 }
