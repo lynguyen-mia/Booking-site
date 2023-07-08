@@ -48,7 +48,9 @@ function HotelList() {
         {hotelList.map((hotel) => (
           <div href="" key={hotel.name} className="hotel-img">
             <div className="img-text">
-              <Link to="/detail">{hotel.name}</Link>
+              <Link to="/detail" className="img-name">
+                {hotel.name}
+              </Link>
               <p>{hotel.city}</p>
               <p>
                 <strong>{"Starting from $" + hotel.price}</strong>
