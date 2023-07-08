@@ -28,9 +28,10 @@ function Form() {
         <i className="fa fa-female fa-lg"></i>
         <GuestInput />
       </div>
-      <Link to="/search"><button type="button" className="form-btn"></Link>
-        Search
-      </button>
+      <Link to="/search">
+        <button type="button" className="form-btn"></button>
+      </Link>
+      Search
     </div>
   );
 }
