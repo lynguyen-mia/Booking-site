@@ -37,7 +37,7 @@
   bottom: -130px;
 }
 
-.hotel-list .img-text a:first-child {
+.hotel-list .img-text *:first-child {
   font-weight: 700;
   color: rgb(86, 86, 86);
 }
