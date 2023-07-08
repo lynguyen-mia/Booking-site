@@ -7,7 +7,7 @@ import React from "react";
 function App() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
-      <Routes>
+      <Routes basename={process.env.PUBLIC_URL}>
         <Route path="/" element={<Home />} />
         <Route path="/search" element={<Search />} />
         <Route path="/detail" element={<Detail />} />
