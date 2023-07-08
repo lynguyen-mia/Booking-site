@@ -29,9 +29,10 @@ function Form() {
         <GuestInput />
       </div>
       <Link to="/search">
-        <button type="button" className="form-btn"></button>
+        <button type="button" className="form-btn">
+          Search
+        </button>
       </Link>
-      Search
     </div>
   );
 }
