@@ -5,7 +5,7 @@ import GuestInput from "./GuestInput";
 
 function Form() {
   function onClickSearchHandler() {
-    window.location.assign("/:search");
+    window.location.assign(`${process.env.PUBLIC_URL}/search`);
   }
 
   return (
