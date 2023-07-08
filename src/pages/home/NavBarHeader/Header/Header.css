@@ -47,6 +47,10 @@
 }
 
 @media (max-width: 768px) {
+  .header-container {
+    justify-content: center;
+  }
+
   .header-text {
     font-size: 28px;
   }

@@ -2,13 +2,12 @@
   background-color: #003580;
   color: white;
   position: relative;
-  padding-bottom: 50px;
 }
 
 .navbar-container {
   max-width: 1140px;
   margin: 0 auto;
-  padding: 15px 12px;
+  padding: 15px 12px 40px;
 }
 
 /* Navbar name & buttons */
@@ -64,5 +63,9 @@
 @media (max-width: 576px) {
   .navbar-btn button {
     font-size: 14px;
+  }
+
+  .navbar-container {
+    padding-bottom: 65px;
   }
 }
