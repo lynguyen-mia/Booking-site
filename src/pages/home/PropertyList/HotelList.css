@@ -62,8 +62,11 @@
 
 @media (max-width: 576px) {
   .hotel-list {
+    display: flex;
+    flex-direction: column;
     row-gap: 180px;
   }
+
   .hotel-list .image-text {
     bottom: -150px;
   }

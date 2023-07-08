@@ -68,6 +68,7 @@
 @media (max-width: 992px) {
   .header-container {
     padding-bottom: 160px;
+    text-align: center;
   }
 
   .form-input__control {
