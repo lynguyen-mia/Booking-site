@@ -32,7 +32,7 @@
   flex-grow: 1;
 }
 
-.search-item-container .search-item-details Link {
+.search-item-container .search-item-details a {
   text-decoration: none;
 }
 
