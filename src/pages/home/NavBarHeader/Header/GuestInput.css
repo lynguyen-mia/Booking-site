@@ -46,6 +46,7 @@
 
 .guest-box__row input {
   color: #1d2429;
+  width: 70px;
   padding: 5px;
   text-align: center;
   border-radius: 5px;

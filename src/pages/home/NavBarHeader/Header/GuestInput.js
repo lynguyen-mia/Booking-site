@@ -71,7 +71,7 @@ export default function GuestNumber() {
       <div className="guest-box">
         <div className="guest-box__row">
           <label htmlFor="input-adult">Adults</label>
-          <input id="input-adult" type="number" max="30" min="1" placeholder='1' onChange={onChangeAdultHandler}
+          <input id="input-adult" type="number" max="30" min="1"  step="1" placeholder='1' onChange={onChangeAdultHandler}
           />
         </div>
 
