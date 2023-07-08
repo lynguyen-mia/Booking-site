@@ -3,7 +3,7 @@ import "./SearchListItem.css";
 
 export default function SearchListItem(props) {
   function onClickHotelHandler() {
-    window.location.assign("./Detail");
+    window.location.assign("./detail");
   }
   return (
     // prettier-ignore

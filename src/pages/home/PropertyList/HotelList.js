@@ -47,7 +47,7 @@ function HotelList() {
         {hotelList.map((hotel) => (
           <div href="" key={hotel.name} className="hotel-img">
             <div className="img-text">
-              <a href="#" onClick={() => window.location.assign("./Detail")}>
+              <a href="#" onClick={() => window.location.assign("./detail")}>
                 {hotel.name}
               </a>
               <p>{hotel.city}</p>
