@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/lynguyen-mia/lynguyen-mia.github.io/static/css/main.44b5cd6b.css",
-    "main.js": "/lynguyen-mia/lynguyen-mia.github.io/static/js/main.301774e5.js",
-    "index.html": "/lynguyen-mia/lynguyen-mia.github.io/index.html",
-    "main.44b5cd6b.css.map": "/lynguyen-mia/lynguyen-mia.github.io/static/css/main.44b5cd6b.css.map",
-    "main.301774e5.js.map": "/lynguyen-mia/lynguyen-mia.github.io/static/js/main.301774e5.js.map"
+    "main.css": "/Booking-site/static/css/main.44b5cd6b.css",
+    "main.js": "/Booking-site/static/js/main.a72e0643.js",
+    "index.html": "/Booking-site/index.html",
+    "main.44b5cd6b.css.map": "/Booking-site/static/css/main.44b5cd6b.css.map",
+    "main.a72e0643.js.map": "/Booking-site/static/js/main.a72e0643.js.map"
   },
   "entrypoints": [
     "static/css/main.44b5cd6b.css",
-    "static/js/main.301774e5.js"
+    "static/js/main.a72e0643.js"
   ]
 }
