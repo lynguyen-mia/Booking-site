@@ -93,7 +93,7 @@
   }
 
   .form-input__control a,
-  .form-btn {
+  .form-input__control .form-btn {
     width: 100%;
   }
 }

@@ -47,9 +47,6 @@ function HotelList() {
       <div className="hotel-list">
         {hotelList.map((hotel) => (
           <div href="" key={hotel.name} className="hotel-img">
-            <a href="#">
-              <img src={hotel.image_url} alt={hotel.name} />
-            </a>
             <div className="img-text">
               <Link to="/detail" className="img-name">
                 {hotel.name}
@@ -63,6 +60,9 @@ function HotelList() {
                 <span>{hotel.type}</span>
               </div>
             </div>
+            <a href="#">
+              <img src={hotel.image_url} alt={hotel.name} />
+            </a>
           </div>
         ))}
       </div>
