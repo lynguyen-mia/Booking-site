@@ -10,14 +10,14 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route
-          path="/search"
+          // path="/search"
           element={<Search />}
-          path={process.env.PUBLIC_URL + "/"}
+          path={process.env.PUBLIC_URL + "/search"}
         />
         <Route
-          path="/detail"
+          // path="/detail"
           element={<Detail />}
-          path={process.env.PUBLIC_URL + "/"}
+          path={process.env.PUBLIC_URL + "/detail"}
         />
       </Routes>
     </BrowserRouter>
