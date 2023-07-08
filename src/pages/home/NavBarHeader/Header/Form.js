@@ -2,11 +2,12 @@ import React from "react";
 import "./Form.css";
 import CalendarRangeInput from "./CalendarRangeInput";
 import GuestInput from "./GuestInput";
+import { Link } from "react-router-dom";
 
 function Form() {
-  function onClickSearchHandler() {
-    window.location.assign(`${process.env.PUBLIC_URL}/search`);
-  }
+  // function onClickSearchHandler() {
+  //   window.location.assign(`${process.env.PUBLIC_URL}/search`);
+  // }
 
   return (
     <div className="form-input__control">
@@ -27,7 +28,7 @@ function Form() {
         <i className="fa fa-female fa-lg"></i>
         <GuestInput />
       </div>
-      <button type="button" className="form-btn" onClick={onClickSearchHandler}>
+      <Link to="/search"><button type="button" className="form-btn"></Link>
         Search
       </button>
     </div>
