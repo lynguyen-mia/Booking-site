@@ -1,4 +1,7 @@
+"homepage": "https://lynguyen-mia.github.io/Booking-site",
 {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
   "name": "booking",
   "version": "0.1.0",
   "private": true,
