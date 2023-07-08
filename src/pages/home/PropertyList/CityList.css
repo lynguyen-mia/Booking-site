@@ -39,16 +39,6 @@
 }
 
 /* MEDIA QUERY */
-@media (max-width: 576px) {
-  .city-list .img-text p {
-    font-size: 18px;
-  }
-
-  .city-list .img-text p:first-child {
-    font-size: 14px;
-  }
-}
-
 @media (max-width: 768px) {
   .city-list .img-text p {
     font-size: 18px;
@@ -56,5 +46,15 @@
 
   .city-list .img-text p:first-child {
     font-size: 24px;
+  }
+}
+
+@media (max-width: 576px) {
+  .city-list .img-text p {
+    font-size: 14px;
+  }
+
+  .city-list .img-text p:first-child {
+    font-size: 18px;
   }
 }
