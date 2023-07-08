@@ -50,6 +50,10 @@
 }
 
 @media (max-width: 576px) {
+  .city-list .img-text {
+    left: 10px;
+  }
+
   .city-list .img-text p {
     font-size: 14px;
   }
