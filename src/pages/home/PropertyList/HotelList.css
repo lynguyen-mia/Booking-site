@@ -59,3 +59,12 @@
     row-gap: 160px;
   }
 }
+
+@media (max-width: 576px) {
+  .hotel-list {
+    row-gap: 180px;
+  }
+  .hotel-list .image-text {
+    bottom: -150px;
+  }
+}

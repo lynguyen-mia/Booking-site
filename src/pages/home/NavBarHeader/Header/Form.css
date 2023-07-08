@@ -92,7 +92,7 @@
     width: 90%;
   }
 
-  .form-input__control .form-btn {
+  .form-input__control a {
     width: 100%;
   }
 }

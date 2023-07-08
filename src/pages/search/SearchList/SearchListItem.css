@@ -132,7 +132,7 @@
   .search-item-container {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 35px;
   }
 
   .search-item-container .search-item-rating {

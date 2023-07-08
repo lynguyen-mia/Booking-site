@@ -21,7 +21,7 @@
 /* MEDIA QUERY */
 @media (max-width: 992px) {
   .checkin-date {
-    width: 70%;
+    width: 65%;
     position: relative;
   }
 
