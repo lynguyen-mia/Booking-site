@@ -77,7 +77,7 @@ export default function GuestNumber() {
 
         <div className="guest-box__row">
           <label htmlFor="input-children">Childrens</label>
-          <input id="input-children" type="number" max="30" min="1" step="1" placeholder='0' onChange={onChangeChildrenHandler}
+          <input id="input-children" type="number" max="30" min="0" step="1" placeholder='0' onChange={onChangeChildrenHandler}
           />
         </div>
 
