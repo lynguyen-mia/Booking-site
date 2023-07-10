@@ -61,6 +61,7 @@
   .hotel-list {
     display: flex;
     flex-direction: column;
+    align-items: center;
     row-gap: 160px;
   }
 
