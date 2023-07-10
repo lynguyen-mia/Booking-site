@@ -62,7 +62,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    row-gap: 160px;
+    row-gap: 230px;
+    margin-bottom: 260px;
   }
 
   .hotel-list .img-text {
@@ -70,6 +71,6 @@
   }
 
   .hotel-list .hotel-img img {
-    height: 320px;
+    height: 380px;
   }
 }
